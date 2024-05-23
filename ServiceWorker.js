@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-FlappyBird-1.0";
 const contentToCache = [
     "Build/FloppyFish.loader.js",
-    "Build/FloppyFish.framework.js",
-    "Build/FloppyFish.data",
-    "Build/FloppyFish.wasm",
+    "Build/FloppyFish.framework.js.unityweb",
+    "Build/FloppyFish.data.unityweb",
+    "Build/FloppyFish.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
