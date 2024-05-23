@@ -1,4 +1,4 @@
-const cacheName = "DefaultCompany-FlappyBird-1.0";
+const cacheName = "DefaultCompany-FlappyBird-1.1";
 const contentToCache = [
     "Build/FloppyFish.loader.js",
     "Build/FloppyFish.framework.js.unityweb",
