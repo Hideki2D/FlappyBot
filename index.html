@@ -17,13 +17,13 @@
 
                 window.Telegram.WebApp.ready();
 				
-				window.Telegram.WebApp.onEvent('invoiceClosed', function(object) {
-				  if (object.status == 'paid') {
-					gameInstance.SendMessage('IAPController', 'Paid', id);
-				  } else if (object.status == 'failed') {
-					gameInstance.SendMessage('IAPController', 'Fail', object.status);
-				  }
-				});
+				<!-- window.Telegram.WebApp.onEvent('invoiceClosed', function(object) { -->
+				  <!-- if (object.status == 'paid') { -->
+					<!-- gameInstance.SendMessage('IAPController', 'Paid', id); -->
+				  <!-- } else if (object.status == 'failed') { -->
+					<!-- gameInstance.SendMessage('IAPController', 'Fail', object.status); -->
+				  <!-- } -->
+				<!-- }); -->
             }
         };
 
